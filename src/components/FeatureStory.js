@@ -5,7 +5,9 @@ function FeatureStory() {
 
     return(
         <div className="fs-outer">
-            hello
+            <div className="fs-title-container">
+                <h1 className="fs-title">Virgil van Dijk is the GOAT</h1>
+            </div>
         </div>
     )
 }

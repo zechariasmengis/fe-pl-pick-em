@@ -1,3 +1,23 @@
 .fs-outer {
+    display: flex;
     width: 100%;
+    border: 1px solid pink;
+    background-image: url(../assets/vvd.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fs-title-container {
+    width: 100%;
+    padding: 0 100px;
+}
+
+.fs-title {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
 }
