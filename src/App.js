@@ -1,20 +1,21 @@
 import './App.css';
 import './css/reset.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar'
-import MyLeaguesSB from './components/MyLeaguesSB'
-import FeatureStory from './components/FeatureStory'
-import AdSB from './components/AdSB';
+import Home from './components/page-components/Home'
+// import MyLeaguesSB from './components/MyLeaguesSB'
+// import FeatureStory from './components/FeatureStory'
+// import AdSB from './components/AdSB';
 
 function App() {
   return (
     <div className="App">
       < NavBar />
-      <div className="hp-body">
-        < MyLeaguesSB />
-        < FeatureStory />
-        < AdSB />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      {/* <Home/> */}
     </div>
   );
 }
