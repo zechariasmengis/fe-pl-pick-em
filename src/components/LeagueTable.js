@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
-function LeagueHome() {
+function LeagueTable() {
 
     return(
-        <div className="hp-body">
+        <div className="">
             Hi
         </div>
     )
 }
 
-export default LeagueHome;
+export default LeagueTable;
