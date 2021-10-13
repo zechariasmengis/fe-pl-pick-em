@@ -1,0 +1,10 @@
+.lg-hp-body {
+    display: flex;
+    width: 100%;
+}
+
+.lg-hp-cards-wrap {
+    border: 1px solid greenyellow;
+    width: 60%;
+    margin-left: 150px;
+}

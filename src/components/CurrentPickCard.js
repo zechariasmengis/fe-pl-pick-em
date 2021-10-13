@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function CurrentPickCard() {
 
     return(
-        <div className="">
+        <div className="current-pick-card-wrap">
         </div>
     )
 }
