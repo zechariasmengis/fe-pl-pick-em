@@ -1,0 +1,15 @@
+.current-gs-card-body {
+    border: 1px solid red;
+    margin: 25px;
+    padding: 10px 20px 40px 20px;
+    text-align: center;
+}
+
+.cgsc-button-wrap {
+    display: flex;
+    width: 100%;
+}
+
+.cgsc-button {
+    width: 200px;
+}
