@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/CurrentPickCard.css'
+import '../../css/CurrentPickCard.css'
 
 function CurrentPickCard() {
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/MyLeaguesSB.css'
+import '../../css/MyLeaguesSB.css'
 
 function MyLeaguesSB() {
 

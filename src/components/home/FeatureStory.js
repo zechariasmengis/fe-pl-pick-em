@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/FeatureStory.css'
+import '../../css/FeatureStory.css'
 
 function FeatureStory() {
 
