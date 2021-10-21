@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import LeagueTable from '../LeagueTable';
-import CurrentGSCard from '../CurrentGSCard';
-import CurrentPickCard from '../CurrentPickCard';
+import LeagueTable from './LeagueTable';
+import CurrentGSCard from './CurrentGSCard';
+import CurrentPickCard from './CurrentPickCard';
 import '../../css/LeagueHome.css';
 
 function LeagueHome() {
