@@ -6,9 +6,6 @@ import NavBar from './components/NavBar'
 import Home from './components/home/Home'
 import LeagueHome from './components/leaguehome/LeagueHome';
 import MyGWPicks from './components/mygwpicks/MyGWPicks'
-// import MyLeaguesSB from './components/MyLeaguesSB'
-// import FeatureStory from './components/FeatureStory'
-// import AdSB from './components/AdSB';
 
 function App() {
   return (

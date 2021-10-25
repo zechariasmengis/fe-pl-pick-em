@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import PRGrid from './elements/PRGrid';
+import PicksMadeSB from './elements/PicksMadeSB';
+import MatchupList from './elements/MatchupList';
 
 function MyGWPicks() {
 
