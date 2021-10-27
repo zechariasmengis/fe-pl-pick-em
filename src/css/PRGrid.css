@@ -1,0 +1,7 @@
+.pr-grid-body {
+    display: flex;
+    height: auto;
+    border: 1px solid lightblue;
+    margin: 0 100px 0 100px;
+    flex-wrap: wrap;
+}

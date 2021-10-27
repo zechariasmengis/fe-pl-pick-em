@@ -7,6 +7,7 @@ function MyGWPicks() {
 
     return(
         <div className="my-gw-picks-body">
+            < PRGrid />
         </div>
     )
 }
