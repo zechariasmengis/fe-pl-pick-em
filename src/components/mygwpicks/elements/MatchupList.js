@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../../../css/MatchupList.css'
 
 function MatchupList() {
 

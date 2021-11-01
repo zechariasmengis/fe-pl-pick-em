@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import NavBar from '../NavBar'
-import AdSB from './AdSB'
+import AdSB from '../global/AdSB'
 import FeatureStory from './FeatureStory';
 import MyLeaguesSB from './MyLeaguesSB';
 
