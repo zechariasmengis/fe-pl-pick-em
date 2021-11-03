@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import Home from './components/home/Home'
 import LeagueHome from './components/leaguehome/LeagueHome';
 import MyGWPicks from './components/mygwpicks/MyGWPicks'
+import CreateLeague from './components/createleague/CreateLeague';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/league" element={<LeagueHome />} />
         <Route path="/mygwpicks" element={<MyGWPicks />} />
+        <Route path="/create-league" element={<CreateLeague />} />
       </Routes>
       {/* <Home/> */}
     </div>
