@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../../css/Signup.css'
 
 function Signup() {
 
@@ -25,7 +26,7 @@ function Signup() {
 
     return(
         <div className="signup-body">
-            <form method="post">
+            <form method="post" onSubmit={handleSubmit}>
                 <label>Username</label>
                 <input type="text" value={username} onChange={(event) => setUsername(event.target.value)}></input>
                 <label>First Name</label>
@@ -36,7 +37,7 @@ function Signup() {
                 <input type="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)}></input>
                 <label>Password</label>
                 <input type="password" name="password" value={password} onChange={(event) => setPassword(event.target.value)}></input>
-                <input type="submit" value="Create Account"/>
+                <input type="submit" name="submit" value="Create Account"/>
             </form>
         </div>
     )
