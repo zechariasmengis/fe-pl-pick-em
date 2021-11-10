@@ -28,16 +28,18 @@ function Signup() {
         <div className="signup-body">
             <form method="post" onSubmit={handleSubmit}>
                 <label>Username</label>
-                <input type="text" value={username} onChange={(event) => setUsername(event.target.value)}></input>
+                <input className="signup-input" type="text" value={username} onChange={(event) => setUsername(event.target.value)}></input>
                 <label>First Name</label>
-                <input type="text" name="firstName" value={firstName} onChange={(event) => setFirstName(event.target.value)}></input>
+                <input className="signup-input" type="text" name="firstName" value={firstName} onChange={(event) => setFirstName(event.target.value)}></input>
                 <label>Last Name</label>
-                <input type="text" name="lastName" value={lastName} onChange={(event) => setLastName(event.target.value)}></input>
+                <input className="signup-input" type="text" name="lastName" value={lastName} onChange={(event) => setLastName(event.target.value)}></input>
                 <label>Email</label>
-                <input type="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)}></input>
+                <input className="signup-input" type="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)}></input>
                 <label>Password</label>
-                <input type="password" name="password" value={password} onChange={(event) => setPassword(event.target.value)}></input>
-                <input type="submit" name="submit" value="Create Account"/>
+                <input className="signup-input" type="password" name="password" value={password} onChange={(event) => setPassword(event.target.value)}></input>
+                <div className="button-wrapper">
+                    <input className="signup-submit" type="submit" name="submit" value="Create Account"/>
+                </div>
             </form>
         </div>
     )
