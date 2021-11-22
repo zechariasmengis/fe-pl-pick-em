@@ -8,6 +8,7 @@ import LeagueHome from './components/leaguehome/LeagueHome';
 import MyGWPicks from './components/mygwpicks/MyGWPicks'
 import CreateLeague from './components/createleague/CreateLeague';
 import Signup from './components/signup/Signup';
+import Login from './components/login/Login';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/mygwpicks" element={<MyGWPicks />} />
         <Route path="/create-league" element={<CreateLeague />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       {/* <Home/> */}
     </div>
