@@ -20,7 +20,7 @@ function App() {
         <Route path="/mygwpicks" element={<MyGWPicks />} />
         <Route path="/create-league" element={<CreateLeague />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Login handleLogin={handleLogin}/>} />
       </Routes>
       {/* <Home/> */}
     </div>
