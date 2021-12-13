@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../../css/CurrentGSCard.css'
 
-function Login() {
+function Login(props) {
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -38,7 +38,7 @@ function Login() {
                 <label>Password</label>
                 <input className="signup-input" type="password" name="password" value={password} onChange={(event) => setPassword(event.target.value)}></input>
                 <div className="button-wrapper">
-                    <input className="signup-submit" type="submit" name="submit" value="Create Account"/>
+                    <input className="signup-submit" type="submit" name="submit" value="Login"/>
                 </div>
             </form>
         </div>
